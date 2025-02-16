@@ -1,59 +1,112 @@
 #root {
-  max-width: 100vw;
-  margin: 0 0;
-  padding: 0;
-  text-align: center;
-}
-
-div .hero {
-  height: 100%x;
-}
-
-.hero > img.logo {
   max-width: 100%;
   margin: 0 0;
-  border: none;
-  display: block;
+  padding: 0;
+  
+  background-color: black;
 }
 
-div .prizebar {
-  background: #f5e3ff;
-  padding: 0 3em 3em 3em;
+div {
+
+  & .page {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    background-color: #fff;
+    font-family: "Trasandina W03 Book";
+  }
+
+  &.content {
+    background-color: #fff;
+    min-height: 90vh;
+  }
+  
+  &.hero {
+    height: 100%;
+
+    > img.logo {
+      max-width: 100%;
+      margin: 0 0;
+      border: none;
+      display: block;
+    }
+  }
+
+  &.credits {
+    background: #f5e3ff;
+    font-size: .8em;
+  }
+
+  &.prizebar {
+    background: #f5e3ff;
+    padding: 0 3em 3em 3em;
+
+    > div {
+      padding: 2em 0em;
+    }
+  }
+
+  &.place {
+    /* font-family: "Trasandina W03 Book"; */
+    font-size: 1.5em;;
+    line-height: normal;
+  }
+
+  &.place-sm {
+    /* font-family: "Trasandina W03 Book"; */
+    font-size: .9em;;
+    line-height: normal;
+  }
+
+  &.award {
+    /* font-family: "Trasandina W03 Bold Italic"; */
+    color: #0036b6;
+    font-size: 3em;
+    line-height: normal;
+  }
+
+  &.place-sm > span {
+    max-width: 200px;
+  }
+
+  &.details {
+    width: 100%;
+    padding: 0 3em 3em 3em;
+
+    .registration {
+      text-align: left;
+      line-height: 1.2;
+      color: #0036b6;
+
+      a {
+        font-size: 2em;
+      }
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+  
 }
 
-div .prizebar > div {
-  padding: 2em 0em;
-}
-
-div .award {
+.title {
   font-family: "Trasandina W03 Bold Italic";
+}
+
+.brand {
+  font-family: "Trasandina W03 Bold";
   color: #0036b6;
-  font-size: 3em;
-  line-height: normal;
+  font-size: 2em;
 }
 
-div .place {
-  font-family: "Trasandina W03 Book";
-  font-size: 1.5em;;
-  line-height: normal;
-}
+a {
+  color: #0036b6;
+  
 
-div .place-sm {
-  font-family: "Trasandina W03 Book";
-  font-size: .9em;;
-  line-height: normal;
-}
-
-div .place-sm > span {
-  max-width: 200px;
-}
-
-div .details {
-  padding: 0 3em 3em 3em;
-}
-
-div .details > p {
-  text-align: justify;
+  &:hover {
+    color: #f5e3ff;;
+  }
 }
 
 hr {

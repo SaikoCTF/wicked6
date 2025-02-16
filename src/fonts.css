@@ -1,4 +1,55 @@
 
+@font-face{
+    font-family: "Trasandina Regular";
+    src: url("./assets/fonts/Trasandina Regular/Web Fonts/53152d7b6fdac1d93fce91f0aa9a511d.eot");
+    src: url("./assets/fonts/Trasandina Regular/Web Fonts/53152d7b6fdac1d93fce91f0aa9a511d.eot?#iefix")format("embedded-opentype"),
+        url("./assets/fonts/Trasandina Regular/Web Fonts/53152d7b6fdac1d93fce91f0aa9a511d.woff")format("woff"),
+        url("./assets/fonts/Trasandina Regular/Web Fonts/53152d7b6fdac1d93fce91f0aa9a511d.woff2")format("woff2"),
+        url("./assets/fonts/Trasandina Regular/Web Fonts/53152d7b6fdac1d93fce91f0aa9a511d.ttf")format("truetype"),
+        url("./assets/fonts/Trasandina Regular/Web Fonts/53152d7b6fdac1d93fce91f0aa9a511d.svg#Trasandina Regular")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family: "Trasandina W03 Black";
+    src: url("./assets/fonts/Trasandina W03 Black/Web Fonts/5b06c45224775e55026f3338ab3e9d1d.eot");
+    src: url("./assets/fonts/Trasandina W03 Black/Web Fonts/5b06c45224775e55026f3338ab3e9d1d.eot?#iefix")format("embedded-opentype"),
+        url("./assets/fonts/Trasandina W03 Black/Web Fonts/5b06c45224775e55026f3338ab3e9d1d.woff")format("woff"),
+        url("./assets/fonts/Trasandina W03 Black/Web Fonts/5b06c45224775e55026f3338ab3e9d1d.woff2")format("woff2"),
+        url("./assets/fonts/Trasandina W03 Black/Web Fonts/5b06c45224775e55026f3338ab3e9d1d.ttf")format("truetype"),
+        url("./assets/fonts/Trasandina W03 Black/Web Fonts/5b06c45224775e55026f3338ab3e9d1d.svg#Trasandina W03 Black")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family: "Trasandina W03 Bold";
+    src: url("./assets/fonts/Trasandina W03 Bold/Web Fonts/07d1de1ab1d26616260ac62cd401c5e0.eot");
+    src: url("./assets/fonts/Trasandina W03 Bold/Web Fonts/07d1de1ab1d26616260ac62cd401c5e0.eot?#iefix")format("embedded-opentype"),
+        url("./assets/fonts/Trasandina W03 Bold/Web Fonts/07d1de1ab1d26616260ac62cd401c5e0.woff")format("woff"),
+        url("./assets/fonts/Trasandina W03 Bold/Web Fonts/07d1de1ab1d26616260ac62cd401c5e0.woff2")format("woff2"),
+        url("./assets/fonts/Trasandina W03 Bold/Web Fonts/07d1de1ab1d26616260ac62cd401c5e0.ttf")format("truetype"),
+        url("./assets/fonts/Trasandina W03 Bold/Web Fonts/07d1de1ab1d26616260ac62cd401c5e0.svg#Trasandina W03 Bold")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family: "Trasandina W03 Regular";
+    src: url("./assets/fonts/Trasandina W03 Regular/Web Fonts/69892073256f60f4ca0a13a7a950a1cc.eot");
+    src: url("./assets/fonts/Trasandina W03 Regular/Web Fonts/69892073256f60f4ca0a13a7a950a1cc.eot?#iefix")format("embedded-opentype"),
+        url("./assets/fonts/Trasandina W03 Regular/Web Fonts/69892073256f60f4ca0a13a7a950a1cc.woff")format("woff"),
+        url("./assets/fonts/Trasandina W03 Regular/Web Fonts/69892073256f60f4ca0a13a7a950a1cc.woff2")format("woff2"),
+        url("./assets/fonts/Trasandina W03 Regular/Web Fonts/69892073256f60f4ca0a13a7a950a1cc.ttf")format("truetype"),
+        url("./assets/fonts/Trasandina W03 Regular/Web Fonts/69892073256f60f4ca0a13a7a950a1cc.svg#Trasandina W03 Regular")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
 
 @font-face {
     font-family: "Trasandina W03 Book";
