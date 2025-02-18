@@ -11,11 +11,11 @@ export function Schedule({dates}: ScheduleProps) {
 
     return (
         <>
-            <hr/>
             <div>
                 <div className='brand'>SaikoCTF</div>
                 <div className='date'><span>{dates}</span></div>
             </div>
+            <hr/>
         </>
     )
 }

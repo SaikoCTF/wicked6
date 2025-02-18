@@ -78,6 +78,10 @@ div {
       line-height: 1.2;
       color: #0036b6;
 
+      .emphasis {
+        font-size: 2em;
+      }
+
       a {
         font-size: 2em;
       }
@@ -98,6 +102,11 @@ div {
   font-family: "Trasandina W03 Bold";
   color: #0036b6;
   font-size: 2em;
+}
+
+.date {
+  font-family: "Trasandina W03 Bold";
+  font-size: 1.1em;
 }
 
 a {

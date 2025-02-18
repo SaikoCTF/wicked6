@@ -21,6 +21,7 @@ function App() {
       </div>
       <div className='row content'>
         <div className='col col-xs-12 col-sm-3 prizebar last-xs first-sm'>
+          <Schedule dates={import.meta.env.VITE_CTF_DATES}/>
           <div>
             <div className='place'>1st Place</div>
             <div className='award title'>$1,000</div>
@@ -40,7 +41,7 @@ function App() {
             <div className='award title'>$40</div>
             <div className='place-sm'><span>per participant who completes CTF challenges (no flag required) and surveys</span></div>
           </div>
-          <Schedule dates={import.meta.env.VITE_CTF_DATES}/>
+          
           
         </div>
         <div className='col col-xs-12 col-sm-9 details'>
@@ -49,7 +50,7 @@ function App() {
 
             <p>Do you like CTFs? Are you interested in combining offensive cybersecurity expertise and cutting edge-research? Then SaikoCTF is for you!</p>
 
-            <p>We are a group of researchers running SaikoCTF and collecting data to study cyber defenses. The challenges in this CTF involve host-based and web-based vulnerability discovery and exploitation without involving advanced cryptography, binary reverse engineering, or binary vulnerability exploitation. You will work in a virtualized environment with the aid of a Kali Linux penetration testing suite.</p>
+            <p>We are a group of researchers running SaikoCTF and collecting data to study cyber defenses. The challenges in this CTF involve host-based and web-based vulnerability discovery and exploitation without involving advanced cryptography or binary reverse engineering and exploitation. You will work in a virtualized environment with the aid of a Kali Linux penetration testing suite.</p>
 
             <p>Your privacy is our utmost priority. We will not collect personally identifiable information, such as your name, social media, or hacker handle. Instead, you will be randomly assigned a unique SaikoCTF handle during registration to protect your identity and to be used in the leaderboard. You only need a Discord account to join SaikoCTF.</p>
 
@@ -57,7 +58,7 @@ function App() {
 
             <p>Participation requirements: Must be at least 18 years old, be an experienced offensive CTF player, and understand written instructions in English.</p>
           </div>
-          <Discord className='registration title' href={import.meta.env.VITE_REGISTER_URL} label={import.meta.env.VITE_REGISTER_LABEL}/>
+          <Discord className='registration title' prereg_date={import.meta.env.VITE_CTF_PREREG_DATE} href={import.meta.env.VITE_REGISTER_URL} label={import.meta.env.VITE_REGISTER_LABEL}/>
         </div>
       </div>
       <div className='row credits'>
