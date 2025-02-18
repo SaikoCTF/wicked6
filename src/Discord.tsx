@@ -63,7 +63,7 @@ export function Discord ({prereg_date_start, prereg_date_end, href, label, class
                     <>
                         <div className="emphasis">To register, please come back on {date_fmt.format(prereg_date)} for the registration link.</div>
                         <div className="row reminders">
-                            <div className="col">Reminders:
+                            <div className="col">Registration Reminder:
                                 <a href="#" onClick={handleICal}>iCal</a>
                             {
                                 cal_urls.map((link_info, idx) => {
