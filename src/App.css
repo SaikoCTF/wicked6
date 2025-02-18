@@ -82,6 +82,22 @@ div {
         font-size: 2em;
       }
 
+      .reminders {
+        
+        padding: 1em;
+
+        a {
+          margin: .5em;
+          color: #000;
+          font-family: "Trasandina W03 Bold";
+          font-size: 1em;
+          
+          &:hover {
+            color:#f5e3ff;
+          }
+        }
+      }
+
       a {
         font-size: 2em;
       }

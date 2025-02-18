@@ -21,7 +21,7 @@ function App() {
       </div>
       <div className='row content'>
         <div className='col col-xs-12 col-sm-3 prizebar last-xs first-sm'>
-          <Schedule dates={import.meta.env.VITE_CTF_DATES}/>
+          <Schedule date_start={import.meta.env.VITE_CTF_DATE_START} date_end={import.meta.env.VITE_CTF_DATE_END}/>
           <div>
             <div className='place'>1st Place</div>
             <div className='award title'>$1,000</div>
@@ -58,7 +58,10 @@ function App() {
 
             <p>Participation requirements: Must be at least 18 years old, be an experienced offensive CTF player, and understand written instructions in English.</p>
           </div>
-          <Discord className='registration title' prereg_date={import.meta.env.VITE_CTF_PREREG_DATE} href={import.meta.env.VITE_REGISTER_URL} label={import.meta.env.VITE_REGISTER_LABEL}/>
+          <Discord className='registration title' 
+            prereg_date_start={import.meta.env.VITE_CTF_PREREG_DATE} 
+            prereg_date_end={import.meta.env.VITE_CTF_DATE_START}
+            href={import.meta.env.VITE_REGISTER_URL} label={import.meta.env.VITE_REGISTER_LABEL}/>
         </div>
       </div>
       <div className='row credits'>
