@@ -1,0 +1,152 @@
+{
+    "challenges": [
+        {
+            "id": 1,
+            "name": "Fun and Games with User Accounts",
+            "allowed_time": "15:00"
+        },
+        {
+            "id": 2,
+            "name": "Land of Fruits",
+            "allowed_time": "15:00"
+        },
+        {
+            "id": 3,
+            "name": "Web Site Party Favors",
+            "allowed_time": "10:00"
+        },
+        {
+            "id": 4,
+            "name": "Illegal Backward Pass",
+            "allowed_time": "05:00"
+        },
+        {
+            "id": 5,
+            "name": "Intranet If You Can",
+            "allowed_time": "10:00"
+        },
+        {
+            "id": 6,
+            "name": "Forward me the Flag",
+            "allowed_time": "05:00"
+        }
+    ],
+    "participants": [
+        {
+            "handle": "abc",
+            "challenges": [
+                {
+                    "id": 1,
+                    "time": "13:00"
+                },
+                {
+                    "id": 2,
+                    "time": "5:00"
+                },
+                {
+                    "id": 3,
+                    "time": "8:00"
+                },
+                {
+                    "id": 4,
+                    "time": "3:00"
+                },
+                {
+                    "id": 5,
+                    "time": "9:59"
+                },
+                {
+                    "id": 6,
+                    "time": "0:00"
+                }
+            ]
+        },
+        {
+            "handle": "def",
+            "challenges": [
+                {
+                    "id": 1,
+                    "time": "13:00"
+                },
+                {
+                    "id": 2,
+                    "time": "5:00"
+                },
+                {
+                    "id": 3,
+                    "time": "8:00"
+                },
+                {
+                    "id": 4,
+                    "time": "3:00"
+                },
+                {
+                    "id": 5,
+                    "time": "9:59"
+                },
+                {
+                    "id": 6,
+                    "time": "0:00"
+                }
+            ]
+        },
+        {
+            "handle": "ghi",
+            "challenges": [
+                {
+                    "id": 1,
+                    "time": "13:00"
+                },
+                {
+                    "id": 2,
+                    "time": "5:00"
+                },
+                {
+                    "id": 3,
+                    "time": "8:00"
+                },
+                {
+                    "id": 4,
+                    "time": "3:00"
+                },
+                {
+                    "id": 5,
+                    "time": "9:59"
+                },
+                {
+                    "id": 6,
+                    "time": "0:00"
+                }
+            ]
+        },
+        {
+            "handle": "jkl",
+            "challenges": [
+                {
+                    "id": 1,
+                    "time": "1:00"
+                },
+                {
+                    "id": 2,
+                    "time": "1:00"
+                },
+                {
+                    "id": 3,
+                    "time": "1:00"
+                },
+                {
+                    "id": 4,
+                    "time": "1:00"
+                },
+                {
+                    "id": 5,
+                    "time": "1:00"
+                },
+                {
+                    "id": 6,
+                    "time": "1:00"
+                }
+            ]
+        }
+    ]
+}
