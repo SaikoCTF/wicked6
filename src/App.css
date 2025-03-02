@@ -82,6 +82,25 @@ div {
         font-size: 2em;
       }
 
+      .register-cta {
+        font-size: 1.5em;
+      }
+
+      .register-link {
+        
+        vertical-align: middle;
+
+        a {
+          padding: 1em .5em !important;
+        }
+
+        .icon {
+          font-size: 2em;
+          padding:  1em 1em 1em 1em;
+          color: #000;
+        }
+      }
+
       .reminders {
         
         padding: 1em;
