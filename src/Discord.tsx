@@ -78,7 +78,7 @@ export function Discord ({prereg_date_start, prereg_date_end, href, label, class
                 ) : (
                     <>
                         <div className="row register-link"><a className={"col"} href={href} target="_blank">{label}</a></div>
-                        <div className="register-cta">After you joined the Discord channel, look for a message in your DM channel with the Challenge Management Bot and follow the instructions.</div>
+                        <div className="register-cta">After you join the Discord channel, look for a message in your DM channel with the Challenge Management Bot and follow the instructions.</div>
                     </>
                 )
             }
