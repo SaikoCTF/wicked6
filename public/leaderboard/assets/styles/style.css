@@ -406,6 +406,10 @@ a {
   }
 }
 
+.ctf-overall-carat {
+  width: 20px;
+}
+
 .ctf-carat {
   background-image: url(../images/carat-right.svg);
   background-size: contain;

@@ -20,7 +20,7 @@ function populate_challenge_view(view, challenge) {
   const challengeTable = view.querySelector('.ctf-table--challenge');
   const caption = challengeTable.querySelector('.ctf-caption--challenge-name');
   caption.textContent = challenge.name;
-  let tbody = create_challenge_tbody(['Rank', 'Handle', 'Time'], participants, challenge);
+  let tbody = create_challenge_tbody(['Rank', 'Handle'], participants, challenge);
   challengeTable.append(tbody);
 }
 
@@ -40,11 +40,6 @@ function create_challenge_tbody(headings, participants, challenge) {
         case 'Handle':
           innerHTML += '<td class="ctf-challenge-handle' + (!participant.complete ? ' ctf-incomplete' : '') + '">';
           innerHTML += participant.handle;
-          break;
-        case 'Time':
-          innerHTML += '<td class="ctf-challenge-time' + (!participant.complete ? ' ctf-incomplete' : '') + '">';
-          innerHTML += (participant.timeInMillis === null) ? 'ERROR' : 
-              (participant.complete ? participant.time : challenge.allowed_time)
           break;
         default:
         // Do nothing
