@@ -69,7 +69,7 @@ function App() {
 
             <p>Your privacy is our utmost priority. We will not collect personally identifiable information, such as your name, social media, or hacker handle. Instead, you will be randomly assigned a unique SaikoCTF handle during registration to protect your identity and to be used in the leaderboard. You only need a Discord account to join SaikoCTF.</p>
 
-            <p>SaikoCTF is a timed challenge. There will be 10 unique challenges each accompanied by 5-minute surveys. Each challenge is limited to 1 hour. An automated scoring and publicized leaderboard ranks participants by flags captured and total solve time. The top scores will be posted using the SaikoCTF handles only.</p>
+            <p>SaikoCTF is a timed challenge. There will be 10 unique challenges each accompanied by 5-minute surveys. Each challenge is limited to 1 hour. An automated scoring and publicized leaderboard ranks participants by flags captured and total solve time. Scores will be posted using the SaikoCTF handles only.</p>
 
             <p>Participation requirements: Must be at least 18 years old, be an experienced offensive CTF player, and understand written instructions in English.</p>
           </div>
