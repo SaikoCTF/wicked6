@@ -30,4 +30,4 @@ jobs:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./dist
                   publish_branch: gh-pages
-                  cname: static.saikoctf.org
+                  cname: wicked6.saikoctf.org
