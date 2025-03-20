@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Sarpanch;
+  src: url(../fonts/Sarpanch/Sarpanch-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sarpanch;
+  src: url(../fonts/Sarpanch/Sarpanch-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sarpanch;
+  src: url(../fonts/Sarpanch/Sarpanch-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sarpanch;
+  src: url(../fonts/Sarpanch/Sarpanch-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sarpanch;
+  src: url(../fonts/Sarpanch/Sarpanch-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sarpanch;
+  src: url(../fonts/Sarpanch/Sarpanch-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url(../fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url(../fonts/Ubuntu_Mono/UbuntuMono-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url(../fonts/Ubuntu_Mono/UbuntuMono-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url(../fonts/Ubuntu_Mono/UbuntuMono-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
