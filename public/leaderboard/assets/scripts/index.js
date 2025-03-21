@@ -57,7 +57,7 @@ function ctf_get_active_breakpoint() {
 
 function loadPage(hashValue) {
   const urlParams = new URLSearchParams(window.location.search);
-  let showScores = config.showScores || urlParams.get('key') === config.urlKey;
+  let showScores = config.showScores || urlParams.get('showScores') === '1';
 
   const isFinalDisplay = document.getElementById('is-final-display');
   if (isFinalDisplay) {
