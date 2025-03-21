@@ -31,7 +31,6 @@ function populate_challenge_view(view, challenge) {
   table_headers.forEach(th => 
     table_header_labels.push(th.textContent.trim())
   );
-  console.log("LABELS: ", table_header_labels);
 
   let tbody = create_challenge_tbody(table_header_labels, participants, challenge);
   challengeTable.append(tbody);

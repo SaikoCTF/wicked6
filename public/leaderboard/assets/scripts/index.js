@@ -56,7 +56,8 @@ function ctf_get_active_breakpoint() {
 }
 
 function loadPage(hashValue) {
-  let showScores = data.showScores;
+  const urlParams = new URLSearchParams(window.location.search);
+  let showScores = config.showScores || urlParams.get('key') === config.urlKey;
 
   const hashtagIndex = hashValue.indexOf('#')
   if (hashtagIndex === 0) {
