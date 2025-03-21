@@ -59,6 +59,17 @@ function loadPage(hashValue) {
   const urlParams = new URLSearchParams(window.location.search);
   let showScores = config.showScores || urlParams.get('key') === config.urlKey;
 
+  const isFinalDisplay = document.getElementById('is-final-display');
+  if (isFinalDisplay) {
+    if (config.isFinal) {
+      isFinalDisplay.textContent = 'Final Results';
+    } else {
+      isFinalDisplay.textContent = 'Preliminary Results';
+    }
+  } else {
+    console.warn("Final display does not exist.");
+  }
+
   const hashtagIndex = hashValue.indexOf('#')
   if (hashtagIndex === 0) {
     hashValue = hashValue.substr(1);
