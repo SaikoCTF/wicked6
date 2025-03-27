@@ -56,17 +56,30 @@ function ctf_get_active_breakpoint() {
 }
 
 function loadPage(hashValue) {
+  const urlParams = new URLSearchParams(window.location.search);
+  let showScores = config.showScores || urlParams.get('showScores') === '1';
+
+  const isFinalDisplay = document.getElementById('is-final-display');
+  if (isFinalDisplay) {
+    if (config.isFinal) {
+      isFinalDisplay.textContent = 'Final Results';
+    } else {
+      isFinalDisplay.textContent = 'Preliminary Results';
+    }
+  } else {
+    console.warn("Final display does not exist.");
+  }
+
   const hashtagIndex = hashValue.indexOf('#')
   if (hashtagIndex === 0) {
     hashValue = hashValue.substr(1);
   }
 
-  //console.log("Value: " + hashValue);
   if (hashValue.length === 0) {
     // Initialize Overall View
     const overallView = document.getElementById('ctf-section-overall');
     if (overallView) {
-      overall_init(overallView);
+      overall_init(overallView, showScores);
     } else {
       console.warn("Overall view does not exist.");
     }
@@ -113,7 +126,7 @@ function loadPage(hashValue) {
     return;
   }
 
-  init_challenge_view(challenge_template, challenge_view, challengeToLoad);
+  init_challenge_view(challenge_template, challenge_view, challengeToLoad, showScores);
 }
 
 

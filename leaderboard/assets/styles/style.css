@@ -290,6 +290,14 @@ a {
   text-align: center;
 }
 
+#is-final-display {
+  margin: 1rem auto;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
 .ctf-overall-link-container {
   width: fit-content;
   margin: 0 auto;
@@ -404,6 +412,10 @@ a {
       background-image: url(../images/carat-down.svg);
     }
   }
+}
+
+.ctf-overall-carat {
+  width: 20px;
 }
 
 .ctf-carat {
