@@ -73,6 +73,7 @@
     <div id="ctf-challenge-template-container">
       <div id="ctf-section-challenge-template">
         <h1 class="ctf-page-title">Challenge X</h1>
+        <div id="is-final-display"></div>
 
         <div class="ctf-table-container">
           <table class="ctf-table ctf-table--challenge">
@@ -81,16 +82,15 @@
             </caption>
             <thead>
               <tr>
-                <th scope="col" class="ctf-challenge-rank-header">
+                <th scope="col" class="ctf-challenge-header ctf-challenge-rank-header">
                   Rank
                 </th>
-                <th scope="col" class="ctf-challenge-handle-header">
+                <th scope="col" class="ctf-challenge-header ctf-challenge-handle-header">
                   Handle
                 </th>
-                <th scope="col" class="ctf-challenge-time-header">
+                <th scope="col" class="ctf-challenge-header ctf-challenge-time-header">
                   Time
                 </th>
-                <th scope="col"></th>
               </tr>
             </thead>
           </table>
@@ -100,7 +100,7 @@
   </div>
 
   <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
-
+  <script src="assets/scripts/config.js" defer></script>
   <script src="assets/scripts/data.js" defer></script>
   <script src="assets/scripts/data-setup.js" defer></script>
   <script src="assets/scripts/challenges.js" defer></script>
