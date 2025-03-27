@@ -49,6 +49,13 @@ h2 {
   color: #0036b6;
 }
 
+h3 {
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "Trasandina W03 Bold Italic";
+  color: #000;
+}
+
 p {
   font-family: "Trasandina W03 Book";
 }
