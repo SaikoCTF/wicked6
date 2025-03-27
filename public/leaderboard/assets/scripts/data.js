@@ -50,7 +50,6 @@ data = {
              "name": "Land of Fruits",
              "allowed_time": "1:00:00.000000"
         },
-
 ],
 "participants": [ ]
 }

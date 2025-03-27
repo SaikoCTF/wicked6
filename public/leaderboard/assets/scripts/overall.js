@@ -1,10 +1,22 @@
 // Columns to display for each challenge
 const challenge_columns = ['Rank', 'Time'];
 
-function overall_init(parentEl) {
+function overall_init(parentEl, showScores) {
   const table = document.getElementById('ctf-table-overall');
+
+  if (!showScores) {
+    table.querySelector('.ctf-overall-flags-header').remove();
+    table.querySelector('.ctf-overall-time-header').remove();
+
+    table.querySelector('.ctf-overall-flags').remove();
+    table.querySelector('.ctf-overall-time').remove();
+
+    table.querySelector('.ctf-details-time-header').remove();
+    table.querySelector('.ctf-details-time').remove();
+  }
+
   const table_body = table.querySelector('tbody');
-  populate_overall_table_body(table_body, data.participants);
+  populate_overall_table_body(table_body, data.participants, showScores);
 
   const basic_rows = table.querySelectorAll('.ctf-overall-row--basic');
   basic_rows.forEach(row => 
@@ -12,7 +24,7 @@ function overall_init(parentEl) {
   );
 }
 
-function populate_overall_table_body(table_body, participants) {
+function populate_overall_table_body(table_body, participants, showScores) {
   const basic_row_template = table_body.querySelector('.ctf-overall-row--basic');
   const detail_row_template = table_body.querySelector('.ctf-overall-row--details');
 
@@ -27,20 +39,22 @@ function populate_overall_table_body(table_body, participants) {
     const handle_td = basic_row.querySelector('.ctf-overall-handle');
     handle_td.textContent = participant.handle;
 
-    // Flags
-    const flags_td = basic_row.querySelector('.ctf-overall-flags');
-    flags_td.textContent = participant.overall_flags;
-
-    // Overall Time
-    const score_td = basic_row.querySelector('.ctf-overall-time');
-    score_td.textContent = formatMillis(participant.overall_time);
-
     table_body.appendChild(basic_row);
+
+    if (showScores) {
+      // Flags
+      const flags_td = basic_row.querySelector('.ctf-overall-flags');
+      flags_td.textContent = participant.overall_flags;
+
+      // Overall Time
+      const score_td = basic_row.querySelector('.ctf-overall-time');
+      score_td.textContent = formatMillis(participant.overall_time);
+    }
 
     // Details
     let details_row = detail_row_template.cloneNode(true);
     let details_table = details_row.querySelector('.ctf-table--details');
-    populate_overall_details_table(participant, details_table);
+    populate_overall_details_table(participant, details_table, showScores);
 
     table_body.appendChild(details_row);
   });
@@ -49,7 +63,7 @@ function populate_overall_table_body(table_body, participants) {
   detail_row_template.remove();
 }
 
-function populate_overall_details_table(participant, details_table) {
+function populate_overall_details_table(participant, details_table, showScores) {
   let caption = details_table.querySelector('caption');
   caption.textContent = "SaikoCTF rank details for participant " + participant.handle;
 
@@ -64,7 +78,6 @@ function populate_overall_details_table(participant, details_table) {
     
     const challenge_td = row.querySelector('.ctf-details-challenge');
     const rank_td = row.querySelector('.ctf-details-rank');
-    const score_td = row.querySelector('.ctf-details-time');
 
     let challenge_anchor = document.createElement('a');
     challenge_anchor.setAttribute('href', 'challenges.html#challenge-' + challenge.id);
@@ -79,11 +92,19 @@ function populate_overall_details_table(participant, details_table) {
     } else {
       rank_td.textContent = "-";
       rank_td.classList.add('ctf-incomplete');
-      score_td.classList.add('ctf-incomplete');
     }
 
-    score_td.textContent = (participant_challenge_data?.timeInMillis !== null) ? 
+    if (showScores) {
+      const score_td = row.querySelector('.ctf-details-time');
+
+      if (!participant_challenge_data.complete) {
+        score_td.classList.add('ctf-incomplete');
+      }
+
+      score_td.textContent = (participant_challenge_data?.timeInMillis !== null) ? 
           participant_challenge_data.time : 'ERROR';
+    }
+    
 
     tbody.appendChild(row);
   });
