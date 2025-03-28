@@ -129,7 +129,12 @@ data = {
 {
     "id": "P66884",
     "handle": "ProductiveSpellsword",
-    "challenges": []
+    "challenges": [
+        {
+            "id": 2,
+            "time": "0:03:52.099009"
+        }
+    ]
 },
 {
     "id": "P82878",
