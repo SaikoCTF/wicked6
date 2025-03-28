@@ -279,5 +279,10 @@ data = {
         }
     ]
 },
+{
+    "id": "P90694",
+    "handle": "AwfulMage",
+    "challenges": []
+},
     ]
 }
