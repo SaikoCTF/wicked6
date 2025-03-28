@@ -125,6 +125,10 @@ data = {
     "handle": "GoldenBrawler",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:08:49.405144"
+        },
+        {
             "id": 1,
             "time": "0:17:11.417239"
         },
