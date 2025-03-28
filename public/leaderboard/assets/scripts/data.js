@@ -56,7 +56,7 @@ data = {
 
 {
     "id": "P13583",
-    "handle": "Unknown",
+    "handle": "SupremeLord",
     "challenges": [
         {
             "id": 1,
@@ -69,8 +69,18 @@ data = {
     ]
 },
 {
+    "id": "P40457",
+    "handle": "JazzyViking",
+    "challenges": [
+        {
+            "id": 1,
+            "time": "0:05:31.418194"
+        }
+    ]
+},
+{
     "id": "P43765",
-    "handle": "Unknown",
+    "handle": "EquableDoomlord",
     "challenges": [
         {
             "id": 6,
@@ -108,7 +118,7 @@ data = {
 },
 {
     "id": "P47125",
-    "handle": "Unknown",
+    "handle": "GoldenBrawler",
     "challenges": [
         {
             "id": 1,
@@ -130,7 +140,7 @@ data = {
 },
 {
     "id": "P49842",
-    "handle": "Unknown",
+    "handle": "BashfulBattlemage",
     "challenges": [
         {
             "id": 1,
@@ -144,7 +154,7 @@ data = {
 },
 {
     "id": "P66884",
-    "handle": "Unknown",
+    "handle": "ProductiveSpellsword",
     "challenges": [
         {
             "id": 2,
@@ -154,7 +164,7 @@ data = {
 },
 {
     "id": "P82878",
-    "handle": "Unknown",
+    "handle": "AboundingSamurai",
     "challenges": [
         {
             "id": 1,
@@ -172,7 +182,7 @@ data = {
 },
 {
     "id": "P84765",
-    "handle": "Unknown",
+    "handle": "DeliriousHealer",
     "challenges": [
         {
             "id": 6,
