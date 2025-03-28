@@ -73,6 +73,10 @@ data = {
     "handle": "EquableDoomlord",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:05:34.501756"
+        },
+        {
             "id": 1,
             "time": "0:05:18.538796"
         },
