@@ -78,5 +78,15 @@ data = {
         }
     ]
 },
+{
+    "id": "P49842",
+    "handle": "BashfulBattlemage",
+    "challenges": [
+        {
+            "id": 1,
+            "time": "0:10:29.018533"
+        }
+    ]
+},
     ]
 }
