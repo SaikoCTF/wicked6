@@ -56,7 +56,7 @@ data = {
 
 {
     "id": "P13583",
-    "handle": "SupremeLord",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 1,
@@ -70,7 +70,7 @@ data = {
 },
 {
     "id": "P43765",
-    "handle": "EquableDoomlord",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -108,7 +108,7 @@ data = {
 },
 {
     "id": "P47125",
-    "handle": "GoldenBrawler",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 1,
@@ -130,7 +130,7 @@ data = {
 },
 {
     "id": "P49842",
-    "handle": "BashfulBattlemage",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 1,
@@ -142,10 +142,19 @@ data = {
         }
     ]
 },
-,
+{
+    "id": "P66884",
+    "handle": "Unknown",
+    "challenges": [
+        {
+            "id": 2,
+            "time": "0:03:52.099009"
+        }
+    ]
+},
 {
     "id": "P82878",
-    "handle": "AboundingSamurai",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 1,
@@ -161,6 +170,51 @@ data = {
         }
     ]
 },
-,
+{
+    "id": "P84765",
+    "handle": "Unknown",
+    "challenges": [
+        {
+            "id": 6,
+            "time": "0:05:51.760348"
+        },
+        {
+            "id": 1,
+            "time": "0:05:15.331307"
+        },
+        {
+            "id": 3,
+            "time": "0:09:46.339874"
+        },
+        {
+            "id": 8,
+            "time": "0:09:12.799311"
+        },
+        {
+            "id": 2,
+            "time": "0:04:08.965557"
+        },
+        {
+            "id": 7,
+            "time": "0:03:01.010658"
+        },
+        {
+            "id": 5,
+            "time": "0:00:46.999399"
+        },
+        {
+            "id": 10,
+            "time": "0:21:34.210154"
+        },
+        {
+            "id": 9,
+            "time": "0:45:50.429981"
+        },
+        {
+            "id": 4,
+            "time": "0:03:02.858644"
+        }
+    ]
+},
     ]
 }
