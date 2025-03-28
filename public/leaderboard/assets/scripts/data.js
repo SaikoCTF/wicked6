@@ -1,5 +1,5 @@
 data = {
-    "challenges" : [
+        "challenges" : [
         {
     	   "id": 1,
              "name": "Ante Up",
@@ -50,6 +50,19 @@ data = {
              "name": "Land of Fruits",
              "allowed_time": "1:00:00.000000"
         },
-],
-"participants": [ ]
+
+    ],
+    "participants": [
+
+{
+    "id": "P43765",
+    "handle": "EquableDoomlord",
+    "challenges": [
+        {
+            "id": 1,
+            "time": "0:05:18.538796"
+        }
+    ]
+},
+    ]
 }
