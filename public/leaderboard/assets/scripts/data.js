@@ -150,6 +150,10 @@ data = {
     "handle": "DeliriousHealer",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:05:51.760348"
+        },
+        {
             "id": 1,
             "time": "0:05:15.331307"
         },
