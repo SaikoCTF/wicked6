@@ -79,6 +79,16 @@ data = {
     ]
 },
 {
+    "id": "P47125",
+    "handle": "GoldenBrawler",
+    "challenges": [
+        {
+            "id": 1,
+            "time": "0:17:11.417239"
+        }
+    ]
+},
+{
     "id": "P49842",
     "handle": "BashfulBattlemage",
     "challenges": [
