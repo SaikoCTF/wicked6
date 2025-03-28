@@ -69,6 +69,11 @@ data = {
     ]
 },
 {
+    "id": "P18259",
+    "handle": "WanderingSpellthief",
+    "challenges": []
+},
+{
     "id": "P40457",
     "handle": "JazzyViking",
     "challenges": [
