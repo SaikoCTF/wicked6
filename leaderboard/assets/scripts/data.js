@@ -97,6 +97,11 @@ data = {
     ]
 },
 {
+    "id": "P38408",
+    "handle": "CriticalNavigator",
+    "challenges": []
+},
+{
     "id": "P40457",
     "handle": "JazzyViking",
     "challenges": [
