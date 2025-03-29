@@ -222,6 +222,16 @@ data = {
     ]
 },
 {
+    "id": "P72421",
+    "handle": "DraconianHealer",
+    "challenges": [
+        {
+            "id": 1,
+            "time": "0:06:19.679237"
+        }
+    ]
+},
+{
     "id": "P82878",
     "handle": "AboundingSamurai",
     "challenges": [
