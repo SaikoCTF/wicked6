@@ -211,6 +211,10 @@ data = {
     "handle": "BashfulBattlemage",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:07:49.361521"
+        },
+        {
             "id": 1,
             "time": "0:10:29.018533"
         },
