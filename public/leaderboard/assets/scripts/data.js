@@ -111,7 +111,12 @@ data = {
 {
     "id": "P38408",
     "handle": "CriticalNavigator",
-    "challenges": []
+    "challenges": [
+        {
+            "id": 2,
+            "time": "0:45:15.906655"
+        }
+    ]
 },
 {
     "id": "P40457",
