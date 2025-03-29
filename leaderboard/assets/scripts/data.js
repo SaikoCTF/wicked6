@@ -59,6 +59,10 @@ data = {
     "handle": "SupremeLord",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:15:17.765903"
+        },
+        {
             "id": 1,
             "time": "0:22:19.505773"
         },
