@@ -265,6 +265,10 @@ data = {
     "handle": "DraconianHealer",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:08:11.906683"
+        },
+        {
             "id": 1,
             "time": "0:06:19.679237"
         },
