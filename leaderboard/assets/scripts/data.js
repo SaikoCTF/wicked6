@@ -446,6 +446,10 @@ data = {
     "handle": "ProductiveInfiltrator",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:27:52.678445"
+        },
+        {
             "id": 1,
             "time": "0:23:45.804355"
         },
