@@ -328,6 +328,10 @@ data = {
     "handle": "GustyOutrider",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:25:23.541305"
+        },
+        {
             "id": 1,
             "time": "0:07:57.985512"
         },
