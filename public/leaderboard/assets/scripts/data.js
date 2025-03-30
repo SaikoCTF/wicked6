@@ -438,7 +438,12 @@ data = {
 {
     "id": "P85817",
     "handle": "WoodenWindwalker",
-    "challenges": []
+    "challenges": [
+        {
+            "id": 2,
+            "time": "0:01:49.495547"
+        }
+    ]
 },
 {
     "id": "P87303",
