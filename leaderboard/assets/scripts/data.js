@@ -91,7 +91,12 @@ data = {
 {
     "id": "P13895",
     "handle": "ComplexRanger",
-    "challenges": []
+    "challenges": [
+        {
+            "id": 5,
+            "time": "0:11:35.149212"
+        }
+    ]
 },
 {
     "id": "P18259",
