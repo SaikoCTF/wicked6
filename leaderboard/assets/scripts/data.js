@@ -412,6 +412,10 @@ data = {
     "handle": "WanderingDemonologist",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:15:16.905505"
+        },
+        {
             "id": 1,
             "time": "0:39:55.700389"
         },
