@@ -117,6 +117,10 @@ data = {
     "handle": "CriticalNavigator",
     "challenges": [
         {
+            "id": 6,
+            "time": "0:37:13.608403"
+        },
+        {
             "id": 2,
             "time": "0:45:15.906655"
         },
