@@ -1,4 +1,4 @@
 config = {
-  showScores: false,
+  showScores: true,
   isFinal: false
 }
