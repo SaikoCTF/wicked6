@@ -320,6 +320,16 @@ data = {
     ]
 },
 {
+    "id": "P76410",
+    "handle": "GustyOutrider",
+    "challenges": [
+        {
+            "id": 1,
+            "time": "0:07:57.985512"
+        }
+    ]
+},
+{
     "id": "P82878",
     "handle": "AboundingSamurai",
     "challenges": [
