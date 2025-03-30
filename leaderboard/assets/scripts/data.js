@@ -56,7 +56,7 @@ data = {
 
 {
     "id": "P13583",
-    "handle": "SupremeLord",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -86,17 +86,17 @@ data = {
 },
 {
     "id": "P13895",
-    "handle": "ComplexRanger",
+    "handle": "Unknown",
     "challenges": []
 },
 {
     "id": "P18259",
-    "handle": "WanderingSpellthief",
+    "handle": "Unknown",
     "challenges": []
 },
 {
     "id": "P27204",
-    "handle": "AttractiveDeathknight",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 1,
@@ -114,7 +114,7 @@ data = {
 },
 {
     "id": "P38408",
-    "handle": "CriticalNavigator",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -132,7 +132,7 @@ data = {
 },
 {
     "id": "P40457",
-    "handle": "JazzyViking",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -170,7 +170,7 @@ data = {
 },
 {
     "id": "P43765",
-    "handle": "EquableDoomlord",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -208,7 +208,7 @@ data = {
 },
 {
     "id": "P47125",
-    "handle": "GoldenBrawler",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -242,7 +242,7 @@ data = {
 },
 {
     "id": "P49842",
-    "handle": "BashfulBattlemage",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -268,7 +268,7 @@ data = {
 },
 {
     "id": "P66884",
-    "handle": "ProductiveSpellsword",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 2,
@@ -278,12 +278,12 @@ data = {
 },
 {
     "id": "P72271",
-    "handle": "EarthyDeathknight",
+    "handle": "Unknown",
     "challenges": []
 },
 {
     "id": "P72421",
-    "handle": "DraconianHealer",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -325,7 +325,7 @@ data = {
 },
 {
     "id": "P76410",
-    "handle": "GustyOutrider",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -351,7 +351,7 @@ data = {
 },
 {
     "id": "P82878",
-    "handle": "AboundingSamurai",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -397,7 +397,7 @@ data = {
 },
 {
     "id": "P84289",
-    "handle": "WanderingDemonologist",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 1,
@@ -411,7 +411,7 @@ data = {
 },
 {
     "id": "P84765",
-    "handle": "DeliriousHealer",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
@@ -457,7 +457,7 @@ data = {
 },
 {
     "id": "P85817",
-    "handle": "WoodenWindwalker",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 2,
@@ -467,7 +467,7 @@ data = {
 },
 {
     "id": "P87303",
-    "handle": "EntertainingBattlemind",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 1,
@@ -481,7 +481,7 @@ data = {
 },
 {
     "id": "P90694",
-    "handle": "AwfulMage",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 2,
@@ -491,7 +491,7 @@ data = {
 },
 {
     "id": "P93592",
-    "handle": "ProductiveInfiltrator",
+    "handle": "Unknown",
     "challenges": [
         {
             "id": 6,
